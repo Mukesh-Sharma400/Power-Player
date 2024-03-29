@@ -287,6 +287,94 @@
   margin-top: 10px;
 }
 
+.players-cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.players-cards-powers-btn {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: #141866;
+}
+
+.one-five-btn {
+  background: #08ad49;
+  border: 2px solid #67eb00;
+}
+
+.overs-numbers {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.over-tag {
+  font-size: 10px;
+  padding: 0 2px;
+  font-weight: 300;
+  color: white;
+  background: #141866;
+  border-radius: 3px;
+}
+
+.bonus-numbers {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #141866;
+}
+
+.bonus-tag {
+  font-size: 10px;
+  padding: 0 2px;
+  color: #6c757d;
+  background: #adb5bd;
+  border-radius: 3px;
+}
+
+.bonus-active-numbers {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.bonus-active-tag {
+  font-size: 10px;
+  padding: 0 2px;
+  color: #7b2cbf;
+  background: #f1d9ff;
+  border-radius: 3px;
+}
+
 .priority-order {
   color: #adb5bd;
   background: #141866;
